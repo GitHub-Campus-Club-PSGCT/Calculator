@@ -10,7 +10,6 @@ while True:
         print("Exited")
         break
     try:
-        if e!="x": 
-            print(eval(e,math._dict_))
+         print(eval(e,math.__dict__))
     except:
         print("Unexpected format/character recognised please try again")
